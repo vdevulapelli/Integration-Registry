@@ -1,0 +1,78 @@
+{
+  "subscriptions":[
+      {
+          "recordID": "6579ee4219dd846b8a12bac0",
+          "systemID": "1",
+          "systemName": "SAP",
+          "organisationID": "101",
+          "departmentName": "inventory",
+          "systemDescription": "Inventory Managmenet System",
+          "eventLog": "100",
+          "protocol": "HTTP"
+          },
+          {
+          "recordID": "6579eea019dd846b8a12bac1",
+          "systemID": "2",
+          "systemName": "Workday",
+          "organisationID": "302",
+          "departmentName": "human resources",
+          "systemDescription": "Job Application Portal",
+          "eventLog": "70",
+          "protocol": "FTP"
+          },
+          {
+          "recordID": "6579f8478271f44efe5d076e",
+          "systemID": "3",
+          "systemName": "Oracle",
+          "organisationID": "400",
+          "departmentName": "Finance",
+          "systemDescription": "Accounting System",
+          "eventLog": "200",
+          "protocol": "HTTP"
+          },
+          {
+          "recordID": "657b17669af8a532b1f4a319",
+          "systemID": "4",
+          "systemName": "Success Factors",
+          "organisationID": "201",
+          "departmentName": "HR",
+          "systemDescription": "Employee Management",
+          "eventLog": "100",
+          "protocol": "HTTP"
+          }
+  ],
+  "connections":[
+      {
+          "recordID": "6579f80c1ef8fa4109155218",
+          "connectionID": "1",
+          "sourceSystem": "SAP",
+          "targetSystem": "Workday",
+          "subSourceSystem": "SystemA",
+          "subTargetSystem": "SystemB",
+          "sourceProtocol": "HTTP",
+          "targetProtocol": "FTP"
+          },
+          {
+          "recordID": "6579f8811ef8fa4109155219",
+          "connectionID": "2",
+          "sourceSystem": "SAP",
+          "targetSystem": "Oracle",
+          "subSourceSystem": "SystemA",
+          "subTargetSystem": "SystemB",
+          "sourceProtocol": "HTTP",
+          "targetProtocol": "HTTP"
+          },
+          {
+          "recordID": "657b17a19af8a532b1f4a31a",
+          "connectionID": "3",
+          "sourceSystem": "SAP",
+          "targetSystem": "Oracle",
+          "subSourceSystem": "SystemA",
+          "subTargetSystem": "SystemB",
+          "sourceProtocol": "SMTP",
+          "targetProtocol": "FTP"
+          }
+         ]
+}
+ 
+ 
